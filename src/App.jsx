@@ -1,20 +1,30 @@
 
 // import { useState } from 'react'
 import './App.css'
-import Apple from './Apple'
+// import Apple from './Apple'
+import Bananna from './Bananna'
+
 
 
 
 function App() {
-  // const [count,setCount]=useState(0);
+  const product=[
+    {
+      title:"product1"
+    },
+    {
+      title:"product2"
+    },
+    {
+      title:"product3"
+    }
+  ]
   return (
     <>
-     {/* <h1>Hello world</h1>
-   
-    <button onClick={()=>{setCount(count+1)}}>Increment</button>
-    {count}
-    <button onClick={()=>{setCount(count-1)}}>Decrement</button> */}
-     <Apple/>
+    {product.map((item)=>{
+     return <Bananna  item={item.title} />
+    })} 
+     
     </>
   )
 }

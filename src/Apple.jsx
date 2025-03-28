@@ -11,7 +11,7 @@ export default class Apple extends Component {
         this.setState({count:this.state.count+1})
     }
     decrement=()=>{
-        this.setState({count:this.stat.count-1})
+        this.setState({count:this.state.count-1})
     }
   render() {
     return (

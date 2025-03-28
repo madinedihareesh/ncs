@@ -1,16 +1,21 @@
 function Grapes(){
+    
     return(
         <>
         <h1>Grapes are dark</h1>
+       
         </>
     )
 }
 
-function Bananna(){
+function Bananna(props){
+  
+
     return(
         <>
         <h1>Banannas are sweet</h1>
-        <Grapes/>
+        <h1>{props.item}</h1>
+        
         </>
     )
 }
