@@ -1,3 +1,14 @@
 h1{
   text-align: center;
 }
+body{
+  justify-items: center;
+}
+.btn{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border: 5px;
+  padding: 5px;
+
+}

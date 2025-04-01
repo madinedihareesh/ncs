@@ -1,30 +1,21 @@
 
 // import { useState } from 'react'
 import './App.css'
+import With from './With'
+import Without from './Without'
+// import Make from './styles.module.css'
 // import Apple from './Apple'
-import Bananna from './Bananna'
+// import Bananna from './Bananna'
 
 
 
 
 function App() {
-  const product=[
-    {
-      title:"product1"
-    },
-    {
-      title:"product2"
-    },
-    {
-      title:"product3"
-    }
-  ]
+  
   return (
     <>
-    {product.map((item)=>{
-     return <Bananna  item={item.title} />
-    })} 
-     
+    <With/>
+    <Without/>
     </>
   )
 }
