@@ -1,0 +1,20 @@
+.navigation ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style-type: none;
+    color: white;
+    
+}
+.navigation{
+    border: 1px solid red;
+    padding: 10px;
+    background-color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  /* color: inherit;  */
+}
+
