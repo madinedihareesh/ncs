@@ -1,4 +1,4 @@
-import React, { use, useState } from 'react'
+import React, { useState } from 'react'
 
 const Withouthook = () => {
  
@@ -6,7 +6,7 @@ const Withouthook = () => {
    const [data,setData]=useState('')
    const [isVisible,setIsVisible]=useState(true)
    const [color,setColor]=useState('')
-   const [name,setName]=useState('')
+   
     
     
   return (
